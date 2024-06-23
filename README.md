@@ -1,4 +1,4 @@
-# CodersCave-ui-ux-phase2-GOlDEN TASK 
+# CodersCave-ui-ux-phase2-GOLDEN TASK 
 I'm thrilled to announce the completion of Task 1 in Phase 2 of the CVIP program! I've successfully developed an Music Player interface that boasts a clean and responsive UI/UX design. This project not only demonstrates my ability to create aesthetically pleasing and intuitive interfaces but also my commitment to enhancing user experiences through meticulous design and functionality.
 
  # Here are the steps i have taken to create a clean and responsive UI/UX for a music player app using SwiftUI:
