@@ -111,6 +111,20 @@ Submitted the app to the App Store for review and release.
 ![headphones-removebg-preview](https://github.com/anuj7860/CodersCave-ui-ux-phase2-task2/assets/138881508/91273cd0-f637-492d-ad9f-4c0780bd5c05)
 
 
+#  Colors used
+
+![Screenshot 2024-06-23 192715](https://github.com/anuj7860/CodersCave-ui-ux-phase2-task2/assets/138881508/131355c7-3095-4424-9a6b-d0b88af1c73b)
+
+![Screenshot 2024-06-23 192739](https://github.com/anuj7860/CodersCave-ui-ux-phase2-task2/assets/138881508/13f6f702-965e-4b93-a906-ec9c1ea9669c)
+
+
+![Screenshot 2024-06-23 192800](https://github.com/anuj7860/CodersCave-ui-ux-phase2-task2/assets/138881508/9bc3778c-92f9-407d-9ca4-77243a0b0cb4)
+
+
+![Screenshot 2024-06-23 192816](https://github.com/anuj7860/CodersCave-ui-ux-phase2-task2/assets/138881508/daeb2edb-abc9-4952-97e9-5661ce826d2e)
+
+
+
 # SnapShots of Projects
 
 ![Screenshot 2024-06-23 132228](https://github.com/anuj7860/CodersCave-ui-ux-phase2-task2/assets/138881508/f1f5cecd-e6a6-42c7-98f7-6e66a23d3c0f)
@@ -129,4 +143,8 @@ Submitted the app to the App Store for review and release.
 
 
 # Project Working MP4.format GoogleDrive File :
+
+https://drive.google.com/file/d/1j-mrinQQFz3EJQM-ZjSHGOzv9aGLRIDO/view?usp=sharing
+
+
 
