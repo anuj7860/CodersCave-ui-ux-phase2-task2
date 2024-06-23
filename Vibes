@@ -1,0 +1,269 @@
+import SwiftUI
+
+struct ContentView: View {
+  var body: some View {
+    Ellipse()
+      .foregroundColor(.clear)
+      .frame(width: 19.15, height: 19.15)
+      .background(Color(red: 0.83, green: 0.78, blue: 0.62))
+      .shadow(
+        color: Color(red: 0.83, green: 0.78, blue: 0.62, opacity: 1), radius: 67.01, y: 3.83
+      )
+    Rectangle()
+      .foregroundColor(.clear)
+      .frame(width: 393, height: 498)
+      .background(.white)
+      .cornerRadius(80)
+    Rectangle()
+      .foregroundColor(.clear)
+      .frame(width: 407, height: 498)
+      .background(Color(red: 0.87, green: 0.82, blue: 0.65))
+      .cornerRadius(80)
+    Text("Vibes")
+      .font(Font.custom("Inter", size: 44.48).weight(.heavy))
+      .foregroundColor(.white)
+    Text("72 Listener - Created by SAME")
+      .font(Font.custom("Inter", size: 20).weight(.heavy))
+      .foregroundColor(.white)
+    Ellipse()
+      .foregroundColor(.clear)
+      .frame(width: 19.15, height: 19.15)
+      .background(Color(red: 0.83, green: 0.78, blue: 0.62))
+      .shadow(
+        color: Color(red: 0.83, green: 0.78, blue: 0.62, opacity: 1), radius: 67.01, y: 3.83
+      )
+    Ellipse()
+      .foregroundColor(.clear)
+      .frame(width: 40, height: 40)
+      .background(.white)
+    ZStack() { }
+    .frame(width: 7.14, height: 13.74)
+    Ellipse()
+      .foregroundColor(.clear)
+      .frame(width: 19.15, height: 19.15)
+      .background(Color(red: 0.83, green: 0.78, blue: 0.62))
+      .shadow(
+        color: Color(red: 0.83, green: 0.78, blue: 0.62, opacity: 1), radius: 67.01, y: 3.83
+      )
+    ZStack() {
+      Group {
+        Ellipse()
+          .foregroundColor(.clear)
+          .frame(width: 53.40, height: 53.40)
+          .background(
+            AsyncImage(url: URL(string: "https://via.placeholder.com/53x53"))
+          )
+          .offset(x: -128.16, y: -110.80)
+        Text("Mirror")
+          .font(Font.custom("Inter", size: 16).weight(.heavy))
+          .foregroundColor(.black)
+          .offset(x: -49.84, y: -107.24)
+        Text("2:34")
+          .font(Font.custom("Inter", size: 14.24).weight(.heavy))
+          .foregroundColor(.black)
+          .offset(x: 130.83, y: -115.70)
+        Text("bobly")
+          .font(Font.custom("Inter", size: 14.24))
+          .foregroundColor(.black)
+          .offset(x: -46.73, y: -96.12)
+        Ellipse()
+          .foregroundColor(.clear)
+          .frame(width: 53.40, height: 53.40)
+          .background(
+            AsyncImage(url: URL(string: "https://via.placeholder.com/53x53"))
+          )
+          .offset(x: -128.16, y: 42.20)
+        Text("IWTX")
+          .font(Font.custom("Inter", size: 16).weight(.heavy))
+          .foregroundColor(.black)
+          .offset(x: -49.84, y: -33.37)
+        Text("4:04")
+          .font(Font.custom("Inter", size: 14.24).weight(.heavy))
+          .foregroundColor(.black)
+          .offset(x: 130.83, y: -41.83)
+        Text("Rampage Ron")
+          .font(Font.custom("Inter", size: 14.24))
+          .foregroundColor(.black)
+          .offset(x: -25.86, y: -22)
+        Ellipse()
+          .foregroundColor(.clear)
+          .frame(width: 53.40, height: 53.40)
+          .background(
+            AsyncImage(url: URL(string: "https://via.placeholder.com/53x53"))
+          )
+          .offset(x: -128.16, y: -33.80)
+        Text("Love")
+          .font(Font.custom("Inter", size: 16).weight(.heavy))
+          .foregroundColor(.black)
+          .offset(x: -49.84, y: 40.50)
+      }Group {
+        Text("3:00")
+          .font(Font.custom("Inter", size: 14.24).weight(.heavy))
+          .foregroundColor(.black)
+          .offset(x: 130.83, y: 32.04)
+        Text("Brandy")
+          .font(Font.custom("Inter", size: 14.24))
+          .foregroundColor(.black)
+          .offset(x: -46.73, y: 51.62)
+        Ellipse()
+          .foregroundColor(.clear)
+          .frame(width: 53.40, height: 53.40)
+          .background(
+            AsyncImage(url: URL(string: "https://via.placeholder.com/53x53"))
+          )
+          .offset(x: -128.16, y: 110.80)
+        Text("Devil was an angel")
+          .font(Font.custom("Inter", size: 16).weight(.heavy))
+          .foregroundColor(.black)
+          .offset(x: 14.14, y: 114)
+        Text("4:26")
+          .font(Font.custom("Inter", size: 14.24).weight(.heavy))
+          .foregroundColor(.black)
+          .offset(x: 130.83, y: 105.91)
+        Text("thinkers")
+          .font(Font.custom("Inter", size: 14.24))
+          .foregroundColor(.black)
+          .offset(x: -46.73, y: 125.49)
+      }
+    }
+    .frame(width: 309.72, height: 275.01)
+    Rectangle()
+      .foregroundColor(.clear)
+      .frame(width: 27, height: 27)
+      .background(
+        AsyncImage(url: URL(string: "https://via.placeholder.com/27x27"))
+      )
+    Rectangle()
+      .foregroundColor(.clear)
+      .frame(width: 290, height: 113)
+      .background(.black)
+      .cornerRadius(50)
+    Text("IWTX")
+      .font(Font.custom("Inter", size: 11.52).weight(.heavy))
+      .foregroundColor(.white)
+    Text("Rampage Ron")
+      .font(Font.custom("Inter", size: 10.25).weight(.semibold))
+      .foregroundColor(.white)
+    Ellipse()
+      .foregroundColor(.clear)
+      .frame(width: 38.45, height: 38.45)
+      .background(
+        AsyncImage(url: URL(string: "https://via.placeholder.com/38x38"))
+      )
+      .overlay(
+        Ellipse()
+          .inset(by: -0.72)
+          .stroke(.white, lineWidth: 0.72)
+      )
+    ZStack() {
+      Rectangle()
+        .foregroundColor(.clear)
+        .frame(width: 18.03, height: 0)
+        .overlay(Rectangle()
+        .stroke(.white, lineWidth: 2.50))
+        .offset(x: 4.26, y: 9.01)
+        .rotationEffect(.degrees(90))
+      Rectangle()
+        .foregroundColor(.clear)
+        .frame(width: 18.03, height: 0)
+        .overlay(Rectangle()
+        .stroke(.white, lineWidth: 2.50))
+        .offset(x: 13.76, y: 9.02)
+        .rotationEffect(.degrees(90))
+    }
+    .frame(width: 9.50, height: 18.04)
+    ZStack() {
+      Rectangle()
+        .foregroundColor(.clear)
+        .frame(width: 281, height: 58)
+        .background(.white)
+        .cornerRadius(25)
+        .offset(x: 0, y: 0)
+      Ellipse()
+        .foregroundColor(.clear)
+        .frame(width: 20, height: 20)
+        .overlay(
+          Ellipse()
+            .inset(by: 1.50)
+            .stroke(Color(red: 0.87, green: 0.82, blue: 0.65), lineWidth: 1.50)
+        )
+        .offset(x: -106.50, y: -2)
+    }
+    .frame(width: 281, height: 58)
+    HStack(spacing: 0) {
+      Ellipse()
+        .foregroundColor(.clear)
+        .frame(width: 60, height: 60)
+    }
+    .frame(width: 60, height: 60)
+    HStack(spacing: 0) {
+      HStack(spacing: 0) {
+        HStack(spacing: 0) {
+
+        }
+        .padding(
+          EdgeInsets(top: 0.95, leading: 0.85, bottom: 0.22, trailing: 0.37)
+        )
+        .frame(width: 40, height: 13)
+      }
+      .frame(maxWidth: .infinity, minHeight: 59, maxHeight: 59)
+      .background(Color(red: 0.95, green: 0.89, blue: 0.70).opacity(0))
+      HStack(spacing: 0) {
+        Rectangle()
+          .foregroundColor(.clear)
+          .frame(width: 125, height: 37)
+          .background(.black)
+          .cornerRadius(20)
+      }
+      .frame(maxWidth: .infinity, minHeight: 59, maxHeight: 59)
+      .background(Color(red: 0.95, green: 0.89, blue: 0.70).opacity(0))
+      HStack(spacing: 8) {
+        HStack(alignment: .bottom, spacing: 2) {
+
+        }
+        .frame(width: 18, height: 12)
+        HStack(spacing: 0) {
+
+        }
+        .padding(EdgeInsets(top: 0, leading: 0.05, bottom: 0, trailing: 0.95))
+        .frame(width: 18, height: 12)
+        ZStack() {
+
+        }
+        .frame(width: 28, height: 13)
+      }
+      .frame(maxWidth: .infinity, minHeight: 59, maxHeight: 59)
+      .background(Color(red: 0.95, green: 0.89, blue: 0.70).opacity(0))
+    }
+    .frame(width: 393, height: 59)
+    HStack(spacing: 0) {
+      Rectangle()
+        .foregroundColor(.clear)
+        .frame(width: 134, height: 5)
+        .background(.black)
+        .cornerRadius(3)
+    }
+    .padding(EdgeInsets(top: 13, leading: 0, bottom: 0, trailing: 0))
+    .frame(width: 393, height: 34)
+    .background(Color(red: 1, green: 1, blue: 1).opacity(0))
+    Ellipse()
+      .foregroundColor(.clear)
+      .frame(width: 44.20, height: 44.20)
+      .background(.white)
+      .shadow(
+        color: Color(red: 0, green: 0, blue: 0, opacity: 0.25), radius: 6.80, y: 3.40
+      )
+    Rectangle()
+      .foregroundColor(.clear)
+      .frame(width: 27.20, height: 27.20)
+      .background(
+        AsyncImage(url: URL(string: "https://via.placeholder.com/27x27"))
+      );
+  }
+}
+
+struct ContentView_Previews: PreviewProvider {
+  static var previews: some View {
+    ContentView()
+  }
+}
