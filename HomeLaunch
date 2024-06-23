@@ -1,0 +1,101 @@
+import SwiftUI
+
+struct ContentView: View {
+  var body: some View {
+    Rectangle()
+      .foregroundColor(.clear)
+      .frame(width: 182, height: 46)
+      .background(Color(red: 1, green: 1, blue: 1).opacity(0.60))
+      .cornerRadius(25)
+      .shadow(
+        color: Color(red: 0, green: 0, blue: 0, opacity: 0.25), radius: 25, y: 4
+      )
+    Rectangle()
+      .foregroundColor(.clear)
+      .frame(width: 393, height: 852)
+    Text("20 NEW ARRIVALS")
+      .font(Font.custom("Inter", size: 16).weight(.bold))
+      .foregroundColor(.black)
+    Text("ENJOY THE  ENDLESS MUSIC")
+      .font(Font.custom("Inter", size: 64).weight(.heavy))
+      .foregroundColor(.white)
+    ZStack() {
+      Ellipse()
+        .foregroundColor(.clear)
+        .frame(width: 95.70, height: 95.70)
+        .background(Color(red: 0.82, green: 0.78, blue: 0.61).opacity(0.60))
+        .overlay(
+          Ellipse()
+            .inset(by: 0.43)
+            .stroke(Color(red: 0.95, green: 0.89, blue: 0.70), lineWidth: 0.43)
+        )
+        .offset(x: 0, y: 0)
+      Ellipse()
+        .foregroundColor(.clear)
+        .frame(width: 60.90, height: 60.90)
+        .background(Color(red: 0.90, green: 0.85, blue: 0.67))
+        .offset(x: -0, y: 0)
+        .shadow(
+          color: Color(red: 0, green: 0, blue: 0, opacity: 0.25), radius: 21.75, y: 3.48
+        )
+    }
+    .frame(width: 95.70, height: 95.70)
+    HStack(spacing: 0) {
+      HStack(spacing: 0) {
+        HStack(spacing: 0) {
+
+        }
+        .padding(
+          EdgeInsets(top: 0.95, leading: 0.85, bottom: 0.22, trailing: 0.37)
+        )
+        .frame(width: 40, height: 13)
+      }
+      .frame(maxWidth: .infinity, minHeight: 59, maxHeight: 59)
+      .background(Color(red: 1, green: 1, blue: 1).opacity(0))
+      HStack(spacing: 0) {
+        Rectangle()
+          .foregroundColor(.clear)
+          .frame(width: 125, height: 37)
+          .background(.black)
+          .cornerRadius(20)
+      }
+      .frame(maxWidth: .infinity, minHeight: 59, maxHeight: 59)
+      .background(Color(red: 1, green: 1, blue: 1).opacity(0))
+      HStack(spacing: 8) {
+        HStack(alignment: .bottom, spacing: 2) {
+
+        }
+        .frame(width: 18, height: 12)
+        HStack(spacing: 0) {
+
+        }
+        .padding(EdgeInsets(top: 0, leading: 0.05, bottom: 0, trailing: 0.95))
+        .frame(width: 18, height: 12)
+        ZStack() {
+
+        }
+        .frame(width: 28, height: 13)
+      }
+      .frame(maxWidth: .infinity, minHeight: 59, maxHeight: 59)
+      .background(Color(red: 1, green: 1, blue: 1).opacity(0))
+    }
+    .frame(width: 393, height: 59)
+    .background(Color(red: 1, green: 1, blue: 1).opacity(0))
+    HStack(spacing: 0) {
+      Rectangle()
+        .foregroundColor(.clear)
+        .frame(width: 134, height: 5)
+        .background(.black)
+        .cornerRadius(3)
+    }
+    .padding(EdgeInsets(top: 13, leading: 0, bottom: 0, trailing: 0))
+    .frame(width: 393, height: 34)
+    .background(Color(red: 1, green: 1, blue: 1).opacity(0));
+  }
+}
+
+struct ContentView_Previews: PreviewProvider {
+  static var previews: some View {
+    ContentView()
+  }
+}
